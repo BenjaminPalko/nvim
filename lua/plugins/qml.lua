@@ -12,7 +12,7 @@ return {
     opts = {
       servers = {
         qmlls = {
-          cmd = { "qmlls" },
+          cmd = { "qmlls6" },
         },
       },
     },
