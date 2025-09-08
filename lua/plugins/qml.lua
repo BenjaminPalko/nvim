@@ -1,8 +1,8 @@
 return {
-  {
-    "nvim-treesitter/nvim-treesitter",
-    opts = { ensure_installed = { "qmljs" } },
-  },
+  -- {
+  --   "nvim-treesitter/nvim-treesitter",
+  --   opts = { ensure_installed = { "qmljs" } },
+  -- },
   {
     "mason-org/mason.nvim",
     opts = { ensure_installed = { "qmlls" } },
