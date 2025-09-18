@@ -4,6 +4,10 @@ return {
     opts = { ensure_installed = { "meson" } },
   },
   {
+    "mason-org/mason.nvim",
+    opts = { ensure_installed = { "mesonlsp" } },
+  },
+  {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
